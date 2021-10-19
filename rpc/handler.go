@@ -132,7 +132,6 @@ func (h *handler) handleBatch(msgs []*jsonrpcMessage) {
 
 // handleMsg handles a single message.
 func (h *handler) handleMsg(msg *jsonrpcMessage) {
-	h.log.Debug("rpc handle", "msg:", msg.Method)
 	if ok := h.handleImmediate(msg); ok {
 		return
 	}
