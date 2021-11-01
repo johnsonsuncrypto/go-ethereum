@@ -1,3 +1,0 @@
-INFO [11-01|14:03:11.430] Starting Geth in ephemeral dev mode... 
-INFO [11-01|14:03:11.432] Maximum peer count                       ETH=50 LES=0 total=50
-Fatal: Failed to create the protocol stack: mkdir /data: read-only file system
